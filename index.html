@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Test</title>
+</head>
+
+<body>
+    <header class="site_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Сравнение товаров</li>
+                        </ol>
+                    </nav>
+                    <h1>Сравнение товаров</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="goods">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-3">
+                    <div class="category">
+                        <p>Для категорий<button id="myBtn">?</button></p>
+                        <form>
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Смартфоны</option>
+                                    <option>Планшеты</option>
+                                    <option>Ноутбуки</option>
+                                    <option>Видеокамеры</option>
+                                    <option>Фотоаппараты</option>
+                                </select>
+                            </div>
+                            <div class="form_block">
+                                <input type="radio" id="choice_1" name="choise" value="email" checked>
+                                <label for="choice_1">Все характеристики</label>
+                            </div>
+                            <div class="form_block">
+                                <input type="radio" id="choice_2" name="choise" value="phone">
+                                <label for="choice_2">Показать только различия</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="goods_card">
+                        <div class="goods_picture one">
+                            <img src="./images/img_1.png" alt="iPhone picture" class="responsive">
+                        </div>
+                        <div class="btn_close">
+                            <img src="./images/btn-2.png" alt="icon close">
+                        </div>
+                        <p><span>Смартфоны</span></p>
+                        <h3>Apple iPhone 11 64 Gb (Gold)</h3>
+                        <p class="new_price">49 999 ₽ <span class="old_price">60 999 ₽</span></p>
+                        <div class="flex">
+                            <button class="add_to_cart">В корзину</button>
+                            <button class="buy_with_click"><a href="#"><img src="./images/icon_phone.png"
+                                        alt="Icon phone">
+                                    Купить в 1
+                                    клик</a></button>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="goods_card">
+                        <div class="goods_picture">
+                            <img src="./images/img_2.png" alt="Xiaomi smartphone picture" class="responsive">
+                        </div>
+                        <div class="btn_close">
+                            <img src="./images/btn-2.png" alt="icon close">
+                        </div>
+
+                        <p><span>Смартфоны</span></p>
+                        <h3>Xiaomi Redmi Note 8 Pro (blue)</h3>
+                        <p class="new_price">16 700 ₽ <span class="old_price">19 999 ₽</span></p>
+                        <div class="flex">
+                            <button class="add_to_cart">В корзину</button>
+                            <button class="buy_with_click"><a href="#"><img src="./images/icon_phone.png"
+                                        alt="Icon phone">
+                                    Купить в 1
+                                    клик</a></button>
+                        </div>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="col-xl-12">
+                    <hr>
+                </div>
+
+
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <h2>Бонусные рубли</h2>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="feature_description"><button class="bonus">ББ + 2 000 бонусов</button></div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="feature_description"><button class="bonus">ББ + 2 000 бонусов</button></div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <h2>Акции и специальные предложения</h2>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="feature_description">Рассрочка</div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">Скидка 50% на наушники </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <h2>Наличие</h2>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="feature_description">В наличии </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">От 3 до 5 дней </div>
+                </div>
+
+                <div class="col-xl-12">
+                    <h2>Основные</h2>
+                </div>
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <ul>
+                            <li>Операционная система</li>
+                            <li>Цвет</li>
+                            <li>Год выпуска</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="feature_description">
+                        <ul>
+                            <li>iOS 13</li>
+                            <li>золотой</li>
+                            <li>2019</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">
+                        <ul>
+                            <li>iOS 13</li>
+                            <li>черный</li>
+                            <li>2019</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-12">
+                    <h2>Процессор</h2>
+                </div>
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <ul>
+                            <li>Производитель</li>
+                            <li>Тип</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="feature_description">
+                        <ul>
+                            <li>Apple</li>
+                            <li>A13 Bionic</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">
+                        <ul>
+                            <li>Apple</li>
+                            <li>A13 Bionic</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-12">
+                    <h2>Экран</h2>
+                </div>
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <ul>
+                            <li>Диагональ (дюймов)</li>
+                            <li>Тип экрана </li>
+                            <li>Разрешение экрана</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="feature_description">
+                        <ul>
+                            <li>5,8</li>
+                            <li>Super Retina XDR</li>
+                            <li>2436×1125 точек</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">
+                        <ul>
+                            <li>5,8</li>
+                            <li>Super Retina XDR</li>
+                            <li>2436×1125 точек</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-12">
+                    <h2>Камера</h2>
+                </div>
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <ul>
+                            <li>Количество основных камер</li>
+                            <li>Разрешения основных камер </li>
+                            <li>Функции основной камеры</li>
+                            <li>Фронтальная камера</li>
+                            <li>Разрешение фронтальной камеры </li>
+                            <li>Вспышка</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="feature_description">
+                        <ul>
+                            <li>3</li>
+                            <li>12 МПикс, 12 МПикс, 12 МПикс</li>
+                            <li>Режим «Портрет», портретное освещение, оптическая стабилизация, вспышка True Tone,
+                                Focus
+                                Pixels</li>
+                            <li>есть</li>
+                            <li>12 Мпикс </li>
+                            <li>есть, светодиодная</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">
+                        <ul>
+                            <li>3</li>
+                            <li>12 МПикс, 12 МПикс, 12 МПикс</li>
+                            <li>Режим «Портрет», портретное освещение, оптическая стабилизация, вспышка True Tone,
+                                Focus
+                                Pixels</li>
+                            <li>есть</li>
+                            <li>12 Мпикс </li>
+                            <li>есть, светодиодная</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-12">
+                    <h2>Подключение</h2>
+                </div>
+                <div class="col-xl-3">
+                    <div class="feature_name">
+                        <ul>
+                            <li>Разъем Lightning 8 Pin
+                                <button id="myBtn">?</button>
+                                <div class="window">
+                                    <img src="./images/window_1.png" alt="Text about quality">
+                                </div>
+                                <div class="cursor">
+                                    <img src="./images/cursor.png" alt="Cursor icon">
+                                </div>
+                            </li>
+                            <li>Разъем для наушников </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="feature_description">
+                        <ul>
+                            <li>есть</li>
+                            <li>Lightning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="feature_description">
+                        <ul>
+                            <li>есть</li>
+                            <li>Lightning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="banner">
+                        <p>Смартфон Apple iPhone 11 64GB Black (MWLT2RU/A) и Смартфон Apple iPhone SE 2020 128GB Black
+                            <br>
+                            (MXD02RU/A) -
+                            сравнение основных характеристик моделей</p>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="footer_buttons">
+                        <button class="clear_list">
+                            Очистить список
+                        </button>
+                        <button class="back">
+                            &#8249; Назад к товарам
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

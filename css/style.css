@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    background-color: #fff;
+}
+
+.site_header {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.site_header h1 {
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+.goods {
+    margin-top: 30px;
+}
+
+.category {
+    padding-top: 48px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.form_block {
+    margin-top: 30px;
+}
+
+.goods_card {
+    padding: 60px 10px;
+    position: relative;
+}
+
+.goods_card h3 {
+    font-size: 15px;
+}
+
+.goods_picture {
+    float: left;
+}
+
+.btn_close {
+    position: absolute;
+    top: 50px;
+    left: 380px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.add_to_cart {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 3px 7px;
+    margin-top: 20px;
+}
+
+.buy_with_click {
+    border: none;
+    background-color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.buy_with_click a {
+    color: #000;
+}
+
+.new_price {
+    font-size: 20px;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+.feature_name {
+    position: relative;
+}
+
+.window {
+    position: absolute;
+    top: -130px;
+    left: 95px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border-radius: 14px;
+}
+
+.cursor {
+    position: absolute;
+    top: 12px;
+    left: 214px;
+}
+
+.feature_name ul li {
+    list-style: none;
+    color: #9a9a9a;
+    padding-left: 8px;
+    margin-bottom: 28px;
+}
+
+.feature_description ul li {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.bonus {
+    border: 2px solid #f0f2f4;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+#myBtn {
+    border-radius: 50%;
+    background-color: #f0f2f4;
+    padding: 2px 7px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #f0f2f4;
+    color: #9a9a9a;
+    border: none;
+}
+
+.banner {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.footer_buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.clear_list {
+    padding: 15px 40px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    border: none;
+}
+
+.back {
+    padding: 15px 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------modal------------*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 173px;
+    top: 1094px;
+    width: 258px;
+    height: 122px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    /*background-color: #9a9a9a;*/
+    margin: 15% auto;
+    /*padding: 20px;*/
+    /*border: 1px solid #888;*/
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
