@@ -99,7 +99,7 @@ h2 {
     background-color: #fff;
     font-size: 12px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 4px;
 }
 
 .flex {
@@ -120,20 +120,6 @@ h2 {
 
 .feature_name {
     position: relative;
-}
-
-.window {
-    position: absolute;
-    top: -130px;
-    left: 95px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
-    border-radius: 14px;
-}
-
-.cursor {
-    position: absolute;
-    top: 12px;
-    left: 214px;
 }
 
 .feature_name ul li {
@@ -199,48 +185,33 @@ h2 {
     margin-left: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------modal------------*/
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 173px;
-    top: 1094px;
-    width: 258px;
-    height: 122px;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.tooltip-inner {
+    max-width: 200px; 
+    color: #000; 
+    background-color: #fff; 
+    border-radius: 0.25rem; 
+    padding: 10px 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    padding: 10px;
+    text-align: left;
 }
 
-.modal-content {
-    /*background-color: #9a9a9a;*/
-    margin: 15% auto;
-    /*padding: 20px;*/
-    /*border: 1px solid #888;*/
-    width: 80%;
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #fff;
 }
 
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 5px;
-    font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
